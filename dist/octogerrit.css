@@ -60,7 +60,7 @@ select option:after {
 }
 div.screen {
   margin: 0 auto;
-  width: 990px;
+  width: 90%;
 }
 table.screenHeader {
   display: block !important;
@@ -269,9 +269,9 @@ div.menuBarUserNamePanel {
 .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-avatar {
   display: none;
 }
-.gwt-TabPanelBottom > div {
+/*.gwt-TabPanelBottom > div {
   height: 22px !important;
-}
+}*/
 /* Popups and Menus */
 div.userInfoPopup,
 div.suggestBoxPopup,
@@ -317,7 +317,7 @@ table.screenHeader {
   display: inline-block;
   min-height: 16px;
   padding-right: 22px;
-  width: 100%;
+  width: 85%;
 }
 #change_infoTable tr:nth-child(7) div {
   position: relative;
@@ -360,11 +360,13 @@ table.changeTable tbody tr:first-child td {
   color: #ccc;
   padding: 12px 0;
   text-shadow: 1px 1px #fff;
+  display: none;
 }
 table.changeTable tbody tr:first-child td:last-child {
   border-radius: 0 3px 0 0;
   border-right: 1px solid #e5e5e5 !important;
   padding-right: 10px;
+ 
 }
 table.changeTable tbody tr:first-child td.dataHeader:nth-child(5) {
   overflow: hidden;
@@ -456,7 +458,7 @@ td.dataCell:nth-child(7) a {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: 94px;
+  width: 100%;
 }
 td.cAPPROVAL:nth-child(12) div.gerrit-state-minus-two:before {
   content: '\f126';
@@ -589,7 +591,7 @@ button.com-google-gerrit-client-change-Resources-Style-button div {
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-diffBase {
   height: 24px;
   overflow: hidden;
-  text-indent: -60px;
+  text-indent: -55px;
 }
 div.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerLine {
   text-align: right;
@@ -861,7 +863,10 @@ div.CodeMirror-gutters {
   border: solid #eee;
   border-width: 0 1px;
   padding: 0 10px;
-  width: 23px;
+  width: 30px;
+}
+div.com-google-gerrit-client-diff-UnifiedTable_BinderImpl_GenCss_style-difftable div.CodeMirror-gutters {
+  width: 68px;
 }
 div.CodeMirror-gutters:first-child {
   border-left: 0;
